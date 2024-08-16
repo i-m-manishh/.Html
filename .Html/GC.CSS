@@ -1,0 +1,14 @@
+p{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    text-transform:capitalize ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+body{
+    background-color:skyblue;
+    background-image: url("./ns.jpg");
+    background-size:auto;
+   
+}

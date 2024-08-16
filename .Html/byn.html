@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button</title>
+</head>
+<body>
+<div id="btn"> </div>
+<button onclick="zoom()"></button>
+<script>
+
+document.getElementById('btn').innerHTML ="Click Me"
+document.getElementById('btn').style.backgroundColor = "red"
+document.getElementById('btn').style.borderRadius = "10px"
+document.getElementById('btn').style.border = "1px solid black"
+document.getElementById('btn').style.padding = "10px 10px"
+document.getElementById('btn').style.height = "20px"
+document.getElementById('btn').style.width = "80px"
+document.getElementById('btn').style.display = "flex"
+document.getElementById('btn').style.alignItems = "center"
+document.getElementById('btn').style.justifyContent = "center"
+
+function zoom(){
+document.getElementById('btn').style.height="100px";  
+document.getElementById('btn').style.width="150px";
+document.getElementById('btn').style.borderRadius="50px";
+document.getElementById('btn').style.border=" 1px solid black";
+
+}
+</script>
+</body>
+</html>

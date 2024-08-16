@@ -1,0 +1,110 @@
+*{
+    margin: 1px;
+    color: black;
+}
+body{
+    background-color: rgb(33, 29, 59);
+}
+h1{
+    color: brown;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items:center;
+}
+.Heading{
+    align-items: center;
+    justify-content: center;
+
+}
+.fst{
+    width: 60vw;
+    height: 100vh;
+    background-color:rgb(231, 161, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.fst h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form form{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input[type=text],input[type=email],input[type=password]{
+    height: 25px;
+    padding-left: 15px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid rgb(58, 57, 57);
+}
+.fname,.lname,.bemail,.pname{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.name,.second,.third{
+    display: flex;
+    gap: 25px;
+}
+input[type=text]::placeholder,input[type=email]::placeholder,input[type=password]::placeholder{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.tick{
+    display: flex;
+    background-color:cornflowerblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+}
+.sname{
+    color: aqua;
+    display: flex;
+    gap: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color:cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    align-items:center;
+    justify-content: center; 
+    display: flex;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(86, 138, 234);
+    align-items:center;
+    justify-content: center; 
+    display: flex;
+    }
+    /* Right Side */
+    .side{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+
+    }
+    .side img{
+        width: 480px;
+        height: 570px;
+    }
+    .main{
+        display: flex;
+    }

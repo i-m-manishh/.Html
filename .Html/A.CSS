@@ -1,0 +1,29 @@
+.HEADING1{
+    color: yellow;
+    background-color: chartreuse;
+}
+#HEADING1{
+    color: crimson;
+background-color: aqua;
+}
+.HEADING2{
+    color: purple ;
+    background-color: chartreuse;
+}
+#HEADING2{
+    color: darkblue;
+    background-color: darkorchid;
+}
+.heading1{
+    background-color: mediumblue;
+    color: tomato;
+    height: 50px;
+    width: 100px;
+}
+#heading1{
+background-color: cyan;
+color: darkkhaki;
+height: 50px;
+width: 100px;
+
+}

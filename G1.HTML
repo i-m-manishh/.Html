@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Bliss</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+*{
+margin: 0px;
+text-decoration: none;
+}
+.fst{
+display: flex;
+align-items: center;
+background-color: rgb(70, 69, 69);
+color: white;
+gap:50px;
+padding-left:80px;
+border-radius: 2px;
+}
+.icon{
+gap:10px;
+padding-left:580px;
+height: 50px;
+width: 45px;
+display: flex;
+align-items: center;
+}
+.sec{
+display: flex;
+background-color: whitesmoke;
+justify-content: center;
+padding-left:340px;
+}
+.logo{
+font-size: 40px;
+padding-left: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.text{
+color: rgb(50,50,50);
+padding-right: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 180px;
+height: 70px;
+}
+.navitem{
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: space-evenly ;
+gap: 40px;
+padding-right: 650px;
+color: black;
+}
+.navitem a:hover{
+color:  rgb(217, 48, 48);
+border-radius: 20px;
+}
+.textbtn5 a{
+border: 1px solid black;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 120px;
+height: 40px;
+position: relative;
+right: 620px;
+top: 15px;
+}
+.textbtn5 a:hover{
+background-color: rgb(217, 48, 48);
+color: white;
+}
+.image{
+background-image: url(p.jpg);
+background-size: cover;
+height: 700px;
+width: 100%;
+}
+.text2{
+color: rgb(50,50,50);
+position: absolute;
+top: 400px;
+right: 330px;
+font-size:60px;
+font-family: cursive;
+}
+.text3{
+position: absolute;
+top:560px;
+left:28%;
+font-size:15px;
+}
+.textbtn{
+display: flex;
+justify-content:space-between;
+position: absolute;
+gap:25px;
+top:630px;
+left:38%;
+}
+a{
+color: black;
+}
+.textbtn1{
+border-radius :30px;
+border:black solid 1.5px;
+font-size: 15px;
+padding:15px 20px;
+}
+.textbtn1:hover{
+background-color: rgb(217, 48, 48);
+}
+.textbtn1 :hover{
+color:white;
+}
+.textbtn2{
+border-radius :30px;
+border:black solid 1.5px;
+padding:15px 20px;
+font-size: 15px;
+}
+.textbtn2:hover{
+background-color: rgb(217, 48, 48);
+}
+.textbtn2 :hover{
+color:white;
+}
+.About{
+display: flex;
+background-color: white;
+justify-content: center;
+width: 100%;
+height: 500px;
+gap: 20px;
+}
+.text4{
+margin: 80px;
+display: flex;
+justify-content: center;
+font-size: 50px;
+color: rgb(50,50,50);
+}
+.breakfast{
+display: flex;
+flex-direction: column;
+}
+.dishes{
+display: flex;
+flex-direction: column;
+}
+.drink{
+display: flex;
+flex-direction: column;
+}
+.deserts{
+display: flex;
+flex-direction: column;
+}
+.table1{
+border: 1px solid rgb(122, 121, 121);
+border-radius: 6px;
+padding: 100px 20px;
+}
+.table2{
+border: 1px solid rgb(122, 121, 121);
+border-radius: 6px;
+padding: 100px 20px;
+}
+.table3{
+border: 1px solid rgb(122, 121, 121);
+border-radius: 6px;
+padding: 100px 20px;
+}
+.table4{
+border: 1px solid rgb(122, 121, 121);
+border-radius: 6px;
+padding: 100px 20px;
+}
+.icon2{
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 30px;
+}
+.icon3{
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 30px;
+}
+.icon4{
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 30px;
+}
+.icon5{
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 30px;
+}
+.text5{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: cursive;
+}
+.text8{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: cursive;
+}
+.text11{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: cursive;
+}
+.text14{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: cursive;
+}
+.text6{
+font-size: 15px;
+font-family: cursive;
+font-weight: 300;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.text9{
+font-size: 15px;
+font-family: cursive;
+font-weight: 300;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.text12{
+font-size: 15px;
+font-family: cursive;
+font-weight: 300;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.text15{
+font-size: 15px;
+font-family: cursive;
+font-weight: 300;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.text7{
+color: black;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: 60px;
+}
+.text7:hover{
+color: rgb(217, 48, 48);
+}
+.text10{
+color: black;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: 60px;
+}
+.text10:hover{
+color: rgb(217, 48, 48);
+}
+.text13{
+color: black;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: 60px;
+}
+.text13:hover{
+color: rgb(217, 48, 48);
+}
+.text16{
+color:black;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: 60px;
+}
+.text16:hover{
+color: rgb(217, 48, 48);
+}
+.fiv{
+display: flex;
+background-color: whitesmoke;
+width: 100%;
+height: 800px;
+}
+.image2{
+position: relative;
+top: 150px;
+left: 150px;
+}
+img{
+    border-radius: 10px;
+}
+.text17{
+background-color: rgb(69, 68, 68);
+height: 250px;
+width: 400px;
+position: relative;
+align-items: center;
+left: 120px;
+bottom: 160px;
+border-radius: 10px;
+}
+.table18{
+position: relative;
+align-items: center;
+color: white;
+font-size: 20px;
+justify-content: center;
+font-family: 'Courier New', Courier, monospace;
+}
+.text19{
+position: relative;
+align-items: center;
+justify-content: center;
+color:white;
+font-size: 15px;
+bottom: 40px;
+font-family: 'Courier New', Courier, monospace;
+}
+.text20{
+position: relative;
+align-items: center;
+color: black;
+font-size: 40px;
+font-weight: 500;
+left: 160px;
+top: 180px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text21{
+position: relative;
+align-items: center;
+color: rgb(36, 36, 36);
+font-size: 15px;
+top: 340px;
+right: 200px;
+}
+.text22{
+position: relative;
+align-items: center;
+color: rgb(112, 112, 112);
+font-size: 15px;
+top: 460px;
+right: 650px;
+}
+.textbtn3 a{
+border: 1.5px solid black;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 140px;
+height: 40px;
+position: relative;
+right: 1120px;
+top: 570px;
+}
+.textbtn3:hover a{
+background-color: rgb(217, 48, 48);
+color: white;
+}
+.si{
+display: flex;
+background-color: white;
+width: 100%;
+height: 700px;
+}
+.text23{
+position: relative;
+align-items: center;
+color: black;
+font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 50px;
+}
+.image3{
+display: flex;
+justify-content: space-evenly;
+position: relative;
+right: 400px;
+top: 180px;
+gap: 20px;
+}
+.text24{
+position: relative;
+justify-content: space-evenly;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 450px;
+right: 125%;
+}
+.text25{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 450px;
+right: 125%;
+gap: 20px;
+}
+.text26{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 450px;
+right: 125%;
+gap: 20px;
+}
+.text27{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 450px;
+right: 125%;
+}
+.sev{
+display: flex;
+background-color: whitesmoke;
+width: 100%;
+height: 700px;
+}
+.image4{
+position: relative;
+top: 80px;
+left: 120px;
+}
+.image5{
+position: relative;
+top: 130px;
+left: 140px;
+}
+.image6{
+position: relative;
+top: 400px;
+right: 70px;
+}
+.text28{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+top: 160px;
+right: 40px;
+}
+.text29{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(112, 112, 112);
+font-size: 15px;
+top: 280px;
+right: 310px;
+}
+.text30{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+top: 350px;
+right: 650px;
+}
+.eig{
+display: flex;
+background-color: white;
+width: 100%;
+height: 600px;
+}
+.text31{
+align-items: center;
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+font-size: 40px;
+left: 360px;
+top: 100px;
+}
+.box1{
+position: relative;
+top: 200px;
+right: 400px;
+height: 280px;
+width: 350px;
+background-color: whitesmoke;
+border-radius: 6px;
+}
+.text32{
+position: relative;
+top: 35px;
+right: 70px;
+font-size: 15px;
+font-weight: 200;
+color: rgb(217, 48, 48);
+}
+.text33{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(112, 112, 112);
+font-size: 12px;
+font-weight: 400;
+top: 45px;
+right: 5px;
+}
+.box2{
+position: relative;
+top: 200px;
+right: 360px;
+height: 280px;
+width: 350px;
+background-color: whitesmoke;
+border-radius: 6px;
+}
+.text35{
+position: relative;
+top: 35px;
+right: 70px;
+font-size: 15px;
+font-weight: 200;
+color: rgb(217, 48, 48);
+}
+.text36{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(112, 112, 112);
+font-size: 12px;
+font-weight: 400;
+top: 45px;
+right: 5px;
+}
+.box3{
+position: relative;
+top: 200px;
+right: 320px;
+height: 280px;
+width: 350px;
+background-color: whitesmoke;
+border-radius: 6px;
+}
+.text37{
+position: relative;
+top: 35px;
+right: 70px;
+font-size: 15px;
+font-weight: 200;
+color: rgb(217, 48, 48);
+}
+.text38{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(112, 112, 112);
+font-size: 12px;
+font-weight: 400;
+top: 45px;
+right: 5px;
+}
+.nin{
+display: flex;
+background-color: whitesmoke;
+width: 100%;
+height: 840px;
+}
+.text39{
+position: relative;
+align-items: center;
+color: black;
+font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+top: 80px;
+left: 60px;
+}
+.textbtn4 a{
+display: flex;
+align-items: center;
+justify-content: center;
+border:black solid 1.5px;
+border-radius :30px;
+width: 140px;
+height: 40px;
+font-size: 15px;
+position: relative;
+left: 600px;
+top: 80px;
+}
+.textbtn4:hover a{
+background-color: rgb(217, 48, 48);
+color: white;
+}
+.image7{
+position: relative;
+top: 160px;  
+right: 390px;
+}
+.box4{
+position: relative;
+background-color: white;
+height: 200px;
+width: 440px;
+bottom: 50px;
+}
+.text40{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(145, 144, 144);
+font-size: 12px;
+font-weight: 400;
+top: 40px;
+right: 15px;
+}
+.text41{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 15px;
+top: 40px;
+right: 70px;   
+}
+.text42{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(184, 182, 182);
+font-size: 12px;
+font-weight: 400;
+top: 40px;
+right: 50px; 
+}
+.image8{
+position: relative;
+top: 160px;
+right: 360px;
+}
+.box5{
+position: relative;
+background-color: white;
+height: 120px;
+width: 240px;
+bottom: 40px;
+}
+.text43{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(145, 144, 144);
+font-size: 12px;
+font-weight: 400;
+top: 25px;
+right: 25px;
+}
+.text44{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 16px;
+top: 20px;
+right: 40px;   
+}
+.image9{
+position: relative;
+top: 160px;
+right: 340px;
+}
+.box6{
+position: relative;
+background-color: white;
+height: 120px;
+width: 240px;
+bottom: 40px;
+}
+.text45{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(145, 144, 144);
+font-size: 12px;
+font-weight: 400;
+top: 25px;
+right: 20px;
+}
+.text46{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 16px;
+top: 20px;
+right: 30px;   
+}
+.image10{
+position: relative;
+top: 460px;
+right: 840px;
+}
+.box7{
+position: relative;
+background-color: white;
+height: 120px;
+width: 240px;
+bottom: 40px;
+}
+.text47{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(145, 144, 144);
+font-size: 12px;
+font-weight: 400;
+top: 25px;
+right: 20px;
+}
+.text48{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 16px;
+top: 20px;
+right: 30px;   
+}
+.image11{
+position: relative;
+top: 460px;
+right: 820px;
+}
+.box8{
+position: relative;
+background-color: white;
+height: 120px;
+width: 240px;
+bottom: 40px;
+}
+.text49{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(145, 144, 144);
+font-size: 12px;
+font-weight: 400;
+top: 25px;
+right: 20px;
+}
+.text50{
+position: relative;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 16px;
+top: 20px;
+right: 30px;   
+}
+.ten{
+background-color: rgb(88, 88, 88);
+width: 100%;
+height: 600px;
+}
+.bowl{
+font-size: 40px;
+padding-left: 300px;
+position: relative;
+right:  200px;
+top: 110px;
+}
+.text51{
+color: white;
+font-size: 12px;
+position: relative;
+left: 150px;
+top: 70px;
+}
+.text52{
+color: rgb(145, 144, 144);
+font-size: 13px;
+position: relative;
+top: 60px; 
+left: 50px;  
+}
+.text53{
+color: white;
+font-size: 13px;
+position: relative;
+left: 450px;
+bottom: 50px;
+}
+.text54 a{
+color: rgb(199, 198, 198);
+font-size: 13px;
+position: relative;
+left: 480px;   
+bottom: 40px;
+}
+.text55 a{
+color: rgb(199, 198, 198);
+font-size: 13px;
+position: relative;
+left: 645px; 
+bottom: 330px;
+}
+.text56{
+color: rgb(145, 144, 144);
+font-size: 14px;
+position: relative;
+right: 1200px;
+top: 450px;   
+}
+
+    </style> 
+</head>
+<body>
+<div class="nav">
+<div class="fst">
+    <pre><i class="fa-solid fa-phone"></i>(414)857-0107</pre>
+    <pre><i class="fa-regular fa-envelope"></i>yummy@bistrobliss</pre>
+<div class="icon">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-github"></i>
+        </div>
+        </div>
+        </div>
+
+
+<div class="sec">
+<div class="logo">
+    <i class="fa-solid fa-bowl-food"></i>
+        </div>
+<div class="img">
+<div class="text"><h1><i>Bistro Bliss</i></h1>
+        </div>
+        </div>
+<div class="navitem">
+<a href="./G1.HTML">Home</a>
+<a href="./G2.HTML">About</a>
+<a href="./G3.HTML">Menu</a>
+<a href="./G.4.HTML">Pages</a>
+<a href="./G5.HTML">Contact</a>
+</div>
+<div class="textbtn5">
+    <a href=""><p>Book A Table</p></a>
+</div>
+        </div>
+
+
+<div class="thi">
+<div class="image">
+    <div class="text2">
+            <pre>
+                <b>           Best food for  
+                            your taste </b>
+            </pre>
+          </div>
+<div class="text3">
+    <pre>     Discover delectable cuisine and unforgettable moments
+              in our welcoming, culinary haven.
+    </pre>
+         </div> 
+<div class ="textbtn">
+<div class="textbtn1"><a href=""> Book A Table</a></div>
+<div class ="textbtn2"><a href="">Explore Menu</a></div> 
+    </div>    
+    </div> 
+    </div>
+<hr>
+
+<div class="fou">
+<div class="text4">
+   <pre><b>Browser Our Menu</b></pre>
+    </div> 
+<div class="About">
+<div class="breakfast">
+     <table class="table1">
+        <tr>
+            <td>
+                <div class="icon2">
+        <i class="fa-solid fa-mug-hot"></i>
+                </div>
+     <b class="text5">Breakfast</b>
+    <pre class="text6">In the new era of technology we
+look in the future with certanity
+        and pride for our life. </pre>
+     <p class="text7"><b>Explore Menue</b></p>
+            </td>
+        </tr>
+    </table>
+    </div>
+<div class="dishes">
+    <table class="table2">
+        <tr>
+            <td>
+                <div class="icon3">
+    <i class="fa-solid fa-bowl-food"></i>
+                </div>
+    <b class="text8">Main Dishes</b>
+    <pre class="text9">In the new era of technology we
+look in the future with certanity
+        and pride for our life.</pre>
+    <p class="text10"><b>Explore Menue</b></p>
+    </tr>
+    </td>
+        </table>
+    </div>
+<div class="drinks">
+    <table class="table3">
+        <tr>
+            <td>
+                <div class="icon4">
+        <i class="fa-solid fa-wine-bottle"></i>
+                </div>
+        <b class="text11">Drinks</b>
+    <pre class="text12">In the new era of technology we
+look in the future with certanity
+        and pride for our life.</pre>
+        <p class="text13"><b>Explore Menue</b></p>
+        </td>
+        </tr>
+        </table>
+        </div>
+<div class="deserts">
+        <table class="table4">
+            <tr>
+                <td>
+                    <div class="icon5">
+        <i class="fa-solid fa-cake-candles"></i>
+                    </div>
+        <b class="text14">Deserts</b>
+    <pre class="text15">In the new era of technology we
+look in the future with certanity
+        and pride for our life.</pre>
+        <p class="text16"><b>Explore Menue</b></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</div>
+<hr>
+<div class="fiv">
+<div class="image2">
+        <img src="./s.jpg" alt="chicken shawarma" height="500px" width="450px" boder>
+        <pre class="text17">
+            <pre class="table18">
+ 
+    <b>Come and visit us</b>
+                </pre>
+<br>
+
+<pre class="text19">
+      <i class="fa-solid fa-phone"></i>   (414) 857- 0107<br>
+      <i class="fa-regular fa-envelope"></i>   happytummy@restaurant.com<br>
+      <i class="fa-solid fa-location-dot"></i>   837 W.Marshall Lane Marshalltown,
+           IA 50158,Los Angeles 
+            </pre>
+            </pre>
+    </div>
+    <pre class="text20">
+        <b>  
+          We Provide Healthy
+          food for your family. </b>
+    </pre>
+<pre class="text21">
+Our story began with a vision to create a unique dining
+experience that merges fine dining,exceptional service,
+and a vibrant ambiance.Rooted in city's rich culinary 
+culture, we aim to honor our local roots while infusing
+a global palate.  
+    </pre>
+<pre class="text22">
+At place,we believe that dining is not just about food,
+but also about the overall experience. Our staff, renowned
+for their warmth and dedication, strives to make every 
+visit an unforgettable event. 
+    </pre>
+        <div class="textbtn3">
+            <a href="">More About Us</a> 
+    </div>
+    </div>
+    <hr>
+
+<div class="si">
+    <pre class="text23">
+        We also offer unique 
+        services for your events
+    </pre>
+    <div class="image3">
+<img src="./c.jpg" alt="caterings" height="250px" width="260px">
+<img src="./b.jpg" alt="Birthdays"height="250px" width="260px">
+<img src="./w.jpg" alt="Weddings"height="250px" width="260px">
+<img src="./e.png" alt="Events"height="250px" width="260px">
+    </div>
+        <pre class="text24">
+      <b>Caterings</b>
+            
+      In the new era of technology we
+      look in the future with certanity
+      our life.
+        </pre>
+        <pre class="text25">
+                <b>Birthdays</b>
+ 
+                In the new era of technology we
+                look in the future with certanity
+                our life.
+        </pre>
+        <pre class="text26">
+                <b>Weddings</b>
+
+                In the new era of technology we
+                look in the future with certanity
+                our life.
+        </pre>
+        <pre class="text27">
+                 <b>Events</b>
+
+                 In the new era of technology we
+                 look in the future with certanity
+                 our life.
+        </pre>
+      </div>
+<hr>
+<div class="sev">
+<div class="image4">
+        <img src="./g.jpg" alt="gordon ramsay" height="500px" width="320px" >
+    </div>
+<div class="image5">
+        <img src="./o.jpg" alt="seafood" height="250px" width="210px">
+    </div>
+<div class="image6">
+    <img src="./q.jpg" alt="yummy" height="200px" width="210px">
+     </div>
+<pre class="text28">
+    <b>Fastest Food
+    Delivery in City
+    </b>
+</pre>
+<pre class="text29">
+    Our visual designer lets you quickly and of drag a down
+    your way to customapps for both keep desktop.
+</pre>
+<pre class="text30">
+
+<i class="fa-regular fa-clock"></i>       Delivery within 30 minutes
+
+<i class="fa-solid fa-file-invoice"></i>       Best Offer & Prices
+
+<i class="fa-solid fa-cart-shopping"></i>       Online Services Available
+
+</pre>
+    </div>
+<hr>
+<div class="eig">
+    <pre class="text31">
+        What Our Customers Say 
+    </pre>
+    <div class="box1">
+        <pre class="text32">
+            <b>"The best restaurant"</b>
+        </pre>
+        <pre class="text33">
+            Last night, we dined at place and were
+            simply blown away. From the moment we
+            stepped in, we were enveloped in an
+            inviting atomsphere and greeted with
+            warm smiles.
+
+
+                    
+
+                        <b> Sophire Robson</b>
+
+                         Los Angeles, CA
+        </pre>
+    </div>
+    <div class="box2">
+        <pre class="text35">
+            <b>"Simply delicious"</b>
+        </pre>
+        <pre class="text36">
+            Place exceeded my expectations on all 
+            fronts. The ambiance was cozy and
+            relaxed, making it a perfect venue for our
+            anniversary dinner. Each dish was
+            prepared and beautifully presented.
+
+
+                    
+
+                        <b> Matt Cannon</b>
+
+                         San Diego, CA
+        </pre>
+    </div>
+    <div class="box3">
+        <pre class="text37">
+            <b>"One of a kind restaurant"</b>
+        </pre>
+        <pre class="text38">
+            The culinary experience at place is first
+            to none. The atomsphere is vibrant, the
+            food-nothing short of extraordinary. The
+            food was the highlight of our evening.
+            Highly recommended.
+
+
+                    
+
+                        <b> Andy Smith</b>
+
+                         San Francisco, CA
+        </pre>
+    </div>  
+
+</div>
+<hr>
+<div class="nin">
+    <pre class="text39">
+        Our Blog & Article
+    </pre>
+    <div class="textbtn4">
+    <a href="">Read All Articles</a>
+    </div>
+    <div class="image7">
+        <img src="./t.jpg" alt="Burger"height="420px" width="440px">
+        <div class="box4">
+            <pre class="text40">
+                <b>January 3,2023</b>
+                        </pre>
+                        <pre class="text41">
+                            The secret tips & tricks to prepare burger and pizza
+                            for our customers
+                        </pre>
+                        <pre class="text42">
+                            Lorem ipsum dolor sit amet consectetur of a adipisicing elitilmim semper
+                            adipisicing massa gravida nisi cras enim quis nibholm varius amet gravida
+                            ut facilisis neque egestas.  
+                        </pre>
+        </div> 
+    </div>
+    <div class="image8">
+        <img src="./f.jpg" alt="french fries" height="200px" width="240px">
+        <div class="box5">
+            <pre class="text43">
+                <b>January 3,2023</b>
+            </pre>
+            <pre class="text44">
+                How to prepare the
+                perfect french fries in an
+                air fryer 
+            </pre>
+    </div>
+</div>
+<div class="image9">
+    <img src="./y.jpg" alt="french fries" height="200px" width="240px">
+    <div class="box6">
+        <pre class="text45">
+            <b>January 3,2023</b>
+        </pre>
+        <pre class="text46">
+            How to prepare delicious
+            chicken tenders
+        </pre>
+</div>
+</div>
+<div class="image10">
+    <img src="./u.jpg" alt="french fries" height="200px" width="240px">
+    <div class="box7">
+        <pre class="text47">
+            <b>January 3,2023</b>
+        </pre>
+        <pre class="text48">
+            7 delicious cheesecake 
+            recipes you can prepare
+        </pre>
+</div>
+</div>
+<div class="image11">
+    <img src="./i.jpg" alt="french fries" height="200px" width="240px">
+    <div class="box8">
+        <pre class="text49">
+            <b>January 3,2023</b>
+        </pre>
+        <pre class="text50">
+           5 great pizza restaurants
+           you should visit this city
+        </pre>
+</div>
+</div>
+</div>
+<hr>
+
+<div class="ten">
+    <div class="bowl">
+        <i class="fa-solid fa-bowl-food"></i>
+            </div>
+    <pre class="text51"><h1><i>Bistro Bliss</i></h1>
+    </pre>
+    <pre class="text52">
+        In the new era of technology we look a
+        in the future with certanity and pride to
+        for our company and.
+    </pre>
+    <pre class="text53">
+        <b>Pages              Utility pages                       Follow Us On Instagram </b>        
+    </pre>
+    <pre class="text54">
+    <a href="">Home</a>
+
+
+    <a href="">About</a>
+
+
+    <a href="">Menu</a>
+
+
+    <a href="">Pricing</a>
+
+
+    <a href="">Blog</a>
+
+
+    <a href="">Contact</a>
+
+
+    <a href="">Delivery</a>
+</pre>
+<pre class="text55">
+<a href="">Start Here</a>
+
+
+<a href="">Styleguide</a>
+
+
+<a href="">Password Protected</a>
+
+
+<a href="">404 Not Founnd</a>
+
+
+<a href="">Licenses</a>
+
+
+<a href="">Changelog</a>
+
+
+<a href="">View More</a>
+</pre>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <pre class="text56">
+        Copyright  @2023 Hashtag Developer.All Rights Reserved
+    </pre>
+</div>
+
+</body>
+</html>

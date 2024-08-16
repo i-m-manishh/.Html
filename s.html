@@ -1,0 +1,103 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star square</title>
+</head>
+<body>
+<script>
+let b=5;
+let manish="";
+for(let i=0 ; i<b ; i++){
+for(let j=0 ;j<b ;j++){
+manish +="*";
+}
+manish +="<br>";
+}
+document.write(manish);
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hollow square</title>
+</head>
+<body>
+<script>
+let a=5;
+let mahesh ="";
+for(let i = 0 ; i<a ; i++){
+for(let j = 0 ; j<a ; j++){
+if (i === 0 || i === a - 1) {
+mahesh += "*";
+}
+else {
+if (j === 0 || j === a - 1) {
+mahesh += "*";
+}
+else {
+mahesh += " ";
+}
+}
+mahesh +="<br>";
+}
+}
+document.write(mahesh);
+</script>  
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>left triangle</title>
+</head>
+<body>
+<script>
+let n=5;
+let ayush = "" ;
+for(let i = 0 ; i<n ; i++) {
+{
+for(let j = 0 ; j<=i ; j++){
+ayush +="*";
+}
+ayush +="<br>";
+}
+}
+document.write(ayush);
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Left triangle</title>
+</head>
+<body>
+<script>
+let n = 5; 
+let biplov = "";
+for (let i = 1; i <= n; i++) {
+for (let j = 0; j < n - i; j++) {
+biplov += " ";
+}
+for (let k = 0; k < i; k++) {
+biplov += "*";
+}
+biplov += "\n";
+}
+console.log("biplov");
+</script>
+</body>
+</html>
